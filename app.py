@@ -1047,7 +1047,7 @@ def profile_page():
     with c1:
         st.session_state["full_name"] = st.text_input("Full name", value=st.session_state["full_name"], placeholder="e.g. Alyazia Alameri")
         st.session_state["email"] = st.text_input("Email", value=st.session_state["email"], placeholder="e.g. name@email.com")
-        st.session_state["password"] = st.text_input("Create password", value=st.session_state["password"], type="password", placeholder="For demo only")
+        st.session_state["password"] = st.text_input("Create password", value=st.session_state["password"], type="password", placeholder="Demo only – no data is stored")
         st.session_state["major"] = st.text_input("Major / concentration", value=st.session_state["major"], placeholder="e.g. Computational Systems")
     with c2:
         st.session_state["year"] = st.text_input("Study level", value=st.session_state["year"], placeholder="e.g. Final Year")
